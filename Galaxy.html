@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+    @font-face {
+    font-family: Libel;
+    src: url("ostrich.otf");
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border-bottom: 1px solid  #d1d1d1;
+    }
+    header h1 {
+    color: #212121;
+    font-family: Libel;
+    line-height: 80px;
+    font-size: 50px;
+    margin-left: 1.3em;
+    float: left;
+    }
+    /* Navigation */
+    #navigation {
+    margin-left: 20em;
+    }
+    #navigation p {
+    transition: .5s;
+    float: left;
+    font-family: Libel;
+    font-size: 30px;
+    margin-left: 1em;
+    line-height: 80px;
+    }
+    nav a {
+    color: #212121;
+    text-decoration: none;
+    }
+    /* Nav ende */
+    /* Icons */
+    #icons i {
+    float: right;
+    font-size: 30px;
+    color: #212121;
+    line-height: 80px;
+    margin-right: .5em;
+    transition: .5s;
+    }
+    #menu_ic {
+    display: none;
+    }
+    /* Icons Ende */
+
+    /* Header Ende */
+
+    /* Banner */
+
+    #banner {
+    width: 100%;
+
+    text-align: center;
+    }
+
+    #banner img {
+      display: block;
+      width: 100%;
+    }
+    /* Banner Ende */
+
+    /* Input */
+
+    #btn input {
+      width: 80%;
+      margin-left: 10%;
+      outline: none;
+    }
+    tr {
+      font-size: 20px;
+      font-family: Libel;
+    }
+    #e input {
+      width: 80%;
+      margin-left: 5%;
+      outline: none;
+      border: none;
+      border-radius: 3px;
+      margin-top: 1em;
+      padding: .5em 1em;
+      margin-bottom: 1em;
+
+    }
+::placeholder {
+  font-family: Libel;
+  font-size: 15px;
+}
+
+/* Input Ende */
+
+/* Info */
+
+  #pic img {
+    width: 350px;
+    height: 350px;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  #pic {
+        float: left;
+  }
+
+  #info p {
+    float: left;
+    width: 50%;
+    font-family: Libel, sans-serif;
+    font-size: 30px;
+    margin-top: 1em;
+    margin-left: 1em;
+  }
+
+/* Info Ende */
+
+/* Interesse */
+
+#inter {
+  float: left;
+  margin-top: 2em;
+  width: 100%;
+
+}
+#inter h1 {
+  font-size: 40px;
+  letter-spacing: .1em;
+  font-family: Libel, sans-serif;
+  margin-left: 1em;
+}
+#inter_grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(calc(220px + 2em), 1fr));
+margin-right: 1em;
+}
+/* NEO VERSA */
+#neo {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#neo_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#neo img {
+  width: 220px;
+  height: 230px;
+}
+
+#neo p {
+margin-top: .2em;
+font-family: libel;
+font-size: 37px;
+}
+#neo_p p{
+margin-top: .1em;
+font-size: 47px;
+color: #424949;
+}
+#neo button {
+  border: none;
+  margin-top: .3em;
+  padding:  .3em 3.5em;
+  font-size: 22px;
+  background:  #a93226;
+  color: white;
+  font-family: Libel;
+}
+/* NEO VERSA Ende */
+
+/* HONOR WONDER */
+#wonder {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#wonder_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#wonder img {
+  width: 220px;
+  height: 230px;
+}
+
+#wonder p {
+margin-top: .2em;
+font-family: libel;
+font-size: 33px;
+}
+#wonder_p p{
+margin-top: .1em;
+font-size: 49px;
+color: #424949;
+}
+#wonder button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+}
+/* HONOR WONDER Ende */
+
+/* GUARD */
+
+#guard {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+
+#guard img {
+  width: 220px;
+  height: 230px;
+}
+#guard p {
+margin-top: .2em;
+font-family: libel;
+font-size: 32px;
+}
+#guard_p p{
+margin-top: .1em;
+font-size: 47px;
+color: #424949;
+}
+
+/* GUARD Ende */
+
+/* BTN */
+
+.button_slide {
+  color: #000;
+  border: 2px solid #a93226;
+  border-radius: 0px;
+  padding: .5em 3em;
+  display: inline-block;
+  font-family: "Libel", monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #a93226;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #a93226;
+  color: white;
+}
+
+/* Interesse Ende */
+
+/*Payment */
+#pp_logo img {
+  width: 150px;
+  margin-top: .3em;
+}
+#pp_logo {
+  text-align: center;
+}
+    #pay {
+      float: left;
+      width: 300px;
+      margin-left: 1em;
+      margin-top: 2em;
+      background: #d7d7d7;
+      border-radius: 5px;
+    }
+
+    #payment {
+      width: 60%;
+      margin-left: 1em;
+    }
+
+    @media screen and (max-width: 55em) {
+
+    header h1{
+      font-size: 30px;
+    }
+    #navigation p {
+      font-size: 20px;
+      margin-left: .5em;
+    }
+    #navigation {
+      margin-left: 14em;
+    }
+    #icons {
+      margin-right: 3em;
+    }
+    #icons i {
+      font-size: 30px;
+    }
+    }
+    @media screen and (max-width: 42em) {
+      header h1{
+        font-size: 25px;
+        line-height: 55px;
+      }
+      header {
+        height: 55px;
+      }
+
+      #navigation p {
+        font-size: 20px;
+        margin-left: .4em;
+        line-height: 55px;
+      }
+      #navigation {
+        margin-left: 14em;
+      }
+      #icons {
+        margin-right: 3em;
+      }
+      #icons i {
+        font-size: 25px;
+        line-height: 55px;
+      }
+    }
+    @media screen and (max-width: 36em) {
+      header h1{
+        font-size: 25px;
+        line-height: 55px;
+      }
+      header {
+        height: 55px;
+      }
+
+      #navigation p {
+        font-size: 20px;
+        margin-left: .4em;
+        line-height: 55px;
+      }
+      #navigation {
+        margin-left: 10em;
+      }
+      #icons {
+        margin-right: 2em;
+      }
+      #icons i {
+        font-size: 25px;
+        line-height: 55px;
+      }
+    }
+
+    @media screen and (max-width: 32em) {
+      header h1{
+        font-size: 20px;
+        line-height: 55px;
+      }
+      header {
+        height: 55px;
+      }
+
+      #navigation p {
+        font-size: 16px;
+        margin-left: .4em;
+        line-height: 55px;
+      }
+      #navigation {
+        margin-left: 9em;
+      }
+      #icons {
+        margin-right: 1em;
+      }
+      #icons i {
+        font-size: 20px;
+        line-height: 55px;
+      }
+
+      #info p {
+        width: 80%;
+        font-size: 25px;
+      }
+      #pay {
+        margin-left: 1em;
+      }
+      #pic img {
+        width: 200px;
+        height: 210px;
+      }
+      #pay {
+        width: 200px;
+      }
+    }
+
+    @media screen and (max-width: 26em) {
+      header h1{
+        font-size: 18px;
+        line-height: 55px;
+      }
+      header {
+        height: 55px;
+      }
+
+      #navigation p {
+        font-size: 15px;
+        margin-left: .4em;
+        line-height: 55px;
+      }
+      #navigation {
+        margin-left: 7em;
+      }
+      #icons {
+        margin-right: 1em;
+      }
+      #icons i {
+        font-size: 18px;
+        line-height: 55px;
+        margin-right: .2em;
+      }
+    }
+
+    @media screen and (max-width: 22em) {
+      #inter h1 {
+        font-size: 25px
+      }
+      header h1{
+        font-size: 15px;
+        line-height: 50px;
+      }
+      header {
+        height: 50px;
+      }
+
+      #navigation p {
+        font-size: 13px;
+        margin-left: .3em;
+        line-height: 50px;
+      }
+      #navigation {
+        margin-left: 6em;
+      }
+      #icons {
+        margin-right: .7em;
+      }
+      #icons i {
+        font-size: 15px;
+        line-height: 50px;
+      }
+    }
+
+    @media screen and (max-width: 20em) {
+
+      header h1{
+        font-size: 14px;
+        line-height: 50px;
+      }
+      header {
+        height: 50px;
+      }
+
+      #navigation p {
+        font-size: 12px;
+        margin-left: .2em;
+        line-height: 50px;
+      }
+      #navigation {
+        margin-left: 5.5em;
+      }
+      #icons {
+        margin-right: .5em;
+      }
+      #icons i {
+        font-size: 14px;
+        line-height: 50px;
+      }
+    }
+
+    </style>
+  </head>
+  <body>
+    <header>
+    <div id="header">
+    <div id="uber">
+    <h1>Skinshare.de</h1>
+    </div>
+    <div id="logo">
+    </div>
+    <nav>
+    <div id="navigation">
+    <a href="#"><p>Home</p></a>
+    <a href="#"><p>Rechtliches</p></a>
+    <a href="#"><p>Kontakt</p></a>
+    </div>
+    </nav><div id="icons">
+    <!--<i class="fas fa-shopping-cart"></i>-->
+    <i class="fas fa-euro-sign"></i>
+    <i class="fas fa-tag"></i>
+    <div id="menu_ic"><i class="fas fa-bars"></i></div>
+    </div>
+    </div>
+    </header>
+    <main>
+    <div id="banner">
+    <img src="Banner.png" />
+  </div>
+  <div id="info">
+  <div id="pic">
+    <img src="Galaxy.png" />
+  </div>
+  <p>
+Das superseltene Fortnite Galaxy Llama Spray + 1000 VBucks ist wohl eines der schönsten Sprays, die es in Fortnite je gab! Sichere es dir noch heute um es in deinem Spind zu haben.
+  </p>
+  <div id="lief">
+    <p>
+      Lieferung: <b>1 - 2 Tage</b>
+    </p>
+  </div>
+  </div>
+  <div id="payment">
+  <div id="pay">
+
+      <div id="pp_logo">
+        <img src="pp_logo.svg.png" />
+      </div>
+      <div id="e"><input type="email" name="Email" placeholder="Email Adresse eingeben*" required oninvalid="this.setCustomValidity('Enter Email here')"
+    oninput="this.setCustomValidity('')"/></div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+    <input type="hidden" name="cmd" value="_s-xclick">
+    <input type="hidden" name="hosted_button_id" value="UTDQ9V5USX4MA">
+<div id="btn"> <input type="image" src="Button.png" border="0" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal."></div>
+    <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+    </form>
+</div>
+  </div>
+  <div id="inter">
+    <h1>
+      DAS KÖNNTE DICH AUCH INTERESSIEREN:
+    </h1>
+    <div id="inter_grid">
+    <div id="inter_1">
+      <div id="wonder"><img src="Vertex.png" /><div id="wonder_t"><p>Dark Vertex Bundle</p></div><div id="wonder_p"><p>&#8364;115,00 EUR</p></div><div id="wonder_btn"><a href="special.html"><div class="button_slide slide_right">Kaufen </div></a></div></div>
+    </div>
+    <div id="inter_2">
+      <div id="guard"><img src="Freeze.png" /><div id="guard_t"><p>Deep Freeze Bundle</p></div><div id="guard_p"><p>&#8364;40,00 EUR</p></div><div id="guard_btn"> <a href="freeze.html"><div class="button_slide slide_right">Kaufen </div></a></div></div>
+    </div>
+    <div id="inter_3">
+      <div id="neo"><img src="Neo_1.png" /><div id="neo_t"><p>Neo Versa Bundle</p></div><div id="neo_p"><p>&#8364;15,00 EUR</p></div><div id="neo_btn"><a href="neo.html"><div class="button_slide slide_right">Kaufen </div></a></div></div>
+    </div>
+    </div>
+  </div>
+  </body>
+</html>

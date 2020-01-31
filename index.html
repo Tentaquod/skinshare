@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skinshare Home</title>
+<style>
+html, body {
+  min-height: 100%;
+  width: 100%;
+}
+#main_website {
+  min-height: calc(100% - 12em);
+}
+* {
+margin: 0;
+padding: 0;
+}
+@font-face {
+font-family: Libel;
+src: url("ostrich.otf");
+}
+/* --Header-- */
+header {
+width: 100%;
+height: 80px;
+background-color: white;
+border-bottom: 1px solid  #d1d1d1;
+}
+header h1 {
+color: #212121;
+font-family: Libel;
+line-height: 80px;
+font-size: 50px;
+margin-left: 1.3em;
+float: left;
+}
+/* Navigation */
+#navigation {
+margin-left: 20em;
+}
+#navigation p {
+transition: .5s;
+float: left;
+font-family: Libel;
+font-size: 30px;
+margin-left: 1em;
+line-height: 80px;
+}
+nav a {
+color: #212121;
+text-decoration: none;
+}
+/* Nav ende */
+/* Icons */
+#icons i {
+float: right;
+font-size: 30px;
+color: #212121;
+line-height: 80px;
+margin-right: .5em;
+transition: .5s;
+}
+#menu_ic {
+display: none;
+}
+/* Icons Ende */
+
+/* Header Ende */
+
+/* --Main-- */
+
+/* Banner */
+
+#banner {
+width: 100%;
+
+text-align: center;
+}
+
+#banner img {
+  display: block;
+  width: 100%;
+}
+}
+
+/* Banner Ende */
+
+/* Content */
+#content {
+  margin-left: 2%;
+}
+#slots {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(calc(220px + 2em), 1fr));
+  margin-right: 1em;
+}
+/* MINTY */
+
+#minty {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+
+#minty img {
+  width: 220px;
+  height: 230px;
+}
+#minty p {
+margin-top: .2em;
+font-family: libel;
+font-size: 45px;
+}
+#minty_p p{
+margin-top: .1em;
+font-size: 35px;
+color: #424949;
+}
+#minty button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+}
+/* MINTY Ende */
+
+/* NEO VERSA */
+#neo {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#neo_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#neo img {
+  width: 220px;
+  height: 230px;
+}
+
+#neo p {
+margin-top: .2em;
+font-family: libel;
+font-size: 37px;
+}
+#neo_p p{
+margin-top: .1em;
+font-size: 47px;
+color: #424949;
+}
+#neo button {
+  border: none;
+  margin-top: .3em;
+  padding:  .3em 3.5em;
+  font-size: 22px;
+  background:  #a93226;
+  color: white;
+  font-family: Libel;
+}
+/* NEO VERSA Ende */
+/* HONOR WONDER */
+#wonder {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#wonder_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#wonder img {
+  width: 220px;
+  height: 230px;
+}
+
+#wonder p {
+margin-top: .2em;
+font-family: libel;
+font-size: 33px;
+}
+#wonder_p p{
+margin-top: .1em;
+font-size: 49px;
+color: #424949;
+}
+#wonder button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+}
+/* HONOR WONDER Ende */
+/* DEEP FREEZE */
+#freeze {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#freeze_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#freeze img {
+  width: 220px;
+  height: 230px;
+}
+#freeze p {
+margin-top: .2em;
+font-family: libel;
+font-size: 33px;
+}
+#freeze_p p{
+margin-top: .1em;
+font-size: 50px;
+color: #424949;
+}
+#freeze button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+}
+/* DEEP FREEZE Ende */
+
+/* SPECIAL */
+
+/* DARK VERTEX */
+/*
+#vertex h1 {
+  font-family: Libel, sans-serif;
+  font-size: 65px;
+}
+#vertex {
+/* float: left; */
+/*margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+}
+
+#vertex img {
+  width: 250px;
+  height: 250px;
+  float: left;;
+}
+#vertex p {
+margin-top: .2em;
+font-family: libel;
+font-size: 32px;
+}
+#vertex_t {
+  float: left;
+  width: 70%;
+}
+#vertex_t p {
+  margin-left: .5em;
+  font-size: 50px;
+  float: left;
+}
+#vertex_p p{
+margin-top: .1em;
+font-size: 39px;
+color: #424949;
+float: left;
+width: 70%;
+margin-left: .5em;
+text-decoration: line-through;
+text-decoration-color: #a93226;
+
+}
+#vertex_n p{
+margin-top: .1em;
+font-size: 49px;
+color: black;
+float: left;
+width: 70%;
+margin-left: .5em;
+
+}
+#vertex button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+width: 90%;
+}*/
+
+#spectext p{
+  font-family: libel;
+  font-size: 43px;
+}
+#vertex {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 30em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#vertex_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#vertex img {
+  width: 220px;
+  height: 230px;
+
+}
+#vertex p {
+margin-top: .1em;
+font-family: libel;
+font-size: 43px;
+}
+#vertex_p p{
+  text-decoration: line-through;
+ text-decoration-color: #a93226;
+margin-top: .1em;
+font-size: 37px;
+color: #424949;
+}
+/* DARK VERTEX Ende */
+
+/* HONOR GUARD */
+#guard {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+
+#guard img {
+  width: 220px;
+  height: 230px;
+}
+#guard p {
+margin-top: .2em;
+font-family: libel;
+font-size: 35px;
+}
+#guard_p p{
+margin-top: .1em;
+font-size: 47px;
+color: #424949;
+}
+/* #guard button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+} */
+
+/* HONOR GUARD Ende */
+/* DARK VERTEX */
+
+#text {
+  width: 80%;
+  margin-left: 10%;
+  text-align: center;
+  margin-top: 1em;
+  background-color: #E82A5E;
+  color: white;
+}
+
+#text p {
+  font-family: Libel,sans-serif;
+  font-size: 25px;
+  padding-bottom: .4em;
+}
+#text h1 {
+  font-family: Libel, sans-serif;
+  padding-top: .4em;
+  font-size: 40px;
+}
+#skorp {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#skorp_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#skorp img {
+  width: 220px;
+  height: 230px;
+}
+#skorp p {
+margin-top: .2em;
+font-family: libel;
+font-size: 35px;
+}
+#skorp_p p{
+margin-top: .1em;
+font-size: 49px;
+color: #424949;
+}
+#skorp button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+}
+
+/* SKORPION Ende */
+
+/* EON */
+
+#eon {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#eon_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#eon img {
+  width: 220px;
+  height: 230px;
+}
+#eon p {
+margin-top: .2em;
+font-family: libel;
+font-size: 45px;
+}
+#eon_p p{
+margin-top: .1em;
+font-size: 37px;
+color: #424949;
+}
+#eon button {
+border: none;
+margin-top: .3em;
+padding:  .3em 3.5em;
+font-size: 22px;
+background:  #a93226;
+color: white;
+font-family: Libel;
+}
+
+/* EON Ende */
+
+/* GALAXY SPRAY */
+
+#gal {
+/* float: left; */
+margin-top: 2em;
+margin-left: 1em;
+min-width: 220px;
+height: 25em;
+background-color:  #f2f4f4;
+padding-bottom: 1em;
+padding-left: .5em;
+padding-right: .5em;
+padding-top: .5em;
+text-align: center;
+}
+#gal_b {
+width: 220px;
+height: 230px;
+background: #212112;
+}
+#gal img {
+  width: 220px;
+  height: 230px;
+
+}
+#gal p {
+margin-top: .2em;
+font-family: libel;
+font-size: 43px;
+}
+#gal_p p{
+margin-top: .1em;
+font-size: 37px;
+color: #424949;
+}
+/* GALAXY SPRAY Ende */
+
+/*Content Ende */
+
+/* FOOTER */
+
+footer {
+  margin-top: 1em;
+  /* right: 0;
+  left: 0; */
+  height: 12em;
+  /* position: absolute;
+  bottom: 0; */
+  background-color: #efefef;
+
+}
+
+#ic_foot i, #ic_foot p{
+  font-size: 30px;
+  float: left;
+}
+
+#ic_foot i {
+  color: black;
+  transition: .5s;
+  margin-top: .1em;
+  margin-left: .2em;
+}
+
+#ic_foot p {
+  font-family: Libel;
+  float: left;
+  margin-top: .1em;
+}
+
+#ic_foot {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+footer img {
+  margin-top: 1em;
+  float: left;
+}
+
+#payment {
+  border-top: 1px solid  #d1d1d1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+#copy p {
+  font-family: Libel;
+  font-size: 30px;
+  float: left;
+}
+
+#copy {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 1em;
+}
+/* FOOTER Ende */
+
+/* Hover */
+#icons i:hover, #navigation p:hover {
+transition: .5s;
+color:  #707b7c;
+}
+
+#ic_foot i:hover {
+  transition: .5s;
+  color:  #707b7c;
+}
+
+#nine:hover {
+  background-color: #d7d7d7;
+  transition: .2s;
+}
+/* Hover Ende */
+
+
+/* MEDIA */
+@media screen and (max-width: 61em) {
+  #vertex img{
+    width: 200px;
+    height: 200px;
+
+  }
+}
+@media screen and (max-width: 55em) {
+
+header h1{
+  font-size: 30px;
+}
+#text h1 {
+  font-size: 30px;
+}
+#text p {
+  font-size: 17px;
+}
+#navigation p {
+  font-size: 20px;
+  margin-left: .5em;
+}
+#navigation {
+  margin-left: 14em;
+}
+#icons {
+  margin-right: 3em;
+}
+#icons i {
+  font-size: 30px;
+}
+/*#vertex_n p{
+  width: 50%;
+  font-size: 35px;
+  margin-left: .6em;
+}
+
+#vertex_p p {
+  width: 50%;
+  font-size: 30px;
+  margin-left: .7em;
+}
+#vertex h1 {
+  width: 70%;
+}
+#vertex_t p {
+  width: 60%;
+  font-size: 40px;
+}*/
+}
+@media screen and (max-width: 42em) {
+  header h1{
+    font-size: 25px;
+    line-height: 55px;
+  }
+  header {
+    height: 55px;
+  }
+
+  #navigation p {
+    font-size: 20px;
+    margin-left: .4em;
+    line-height: 55px;
+  }
+  #navigation {
+    margin-left: 14em;
+  }
+  #icons {
+    margin-right: 3em;
+  }
+  #icons i {
+    font-size: 25px;
+    line-height: 55px;
+  }
+}
+@media screen and (max-width: 36em) {
+  header h1{
+    font-size: 25px;
+    line-height: 55px;
+  }
+  header {
+    height: 55px;
+  }
+
+  #navigation p {
+    font-size: 20px;
+    margin-left: .4em;
+    line-height: 55px;
+  }
+  #navigation {
+    margin-left: 10em;
+  }
+  #icons {
+    margin-right: 2em;
+  }
+  #icons i {
+    font-size: 25px;
+    line-height: 55px;
+  }
+
+
+  #text h1 {
+    font-size: 25px;
+  }
+  #text p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 32em) {
+  header h1{
+    font-size: 20px;
+    line-height: 55px;
+  }
+  header {
+    height: 55px;
+  }
+
+  #navigation p {
+    font-size: 16px;
+    margin-left: .4em;
+    line-height: 55px;
+  }
+  #navigation {
+    margin-left: 9em;
+  }
+  #icons {
+    margin-right: 1em;
+  }
+  #icons i {
+    font-size: 20px;
+    line-height: 55px;
+  }
+  footer img {
+    width: 20em;
+    height: 3em;
+  }
+}
+
+@media screen and (max-width: 26em) {
+  header h1{
+    font-size: 18px;
+    line-height: 55px;
+  }
+  header {
+    height: 55px;
+  }
+
+  #navigation p {
+    font-size: 15px;
+    margin-left: .4em;
+    line-height: 55px;
+  }
+  #navigation {
+    margin-left: 7em;
+  }
+  #icons {
+    margin-right: 1em;
+  }
+  #icons i {
+    font-size: 18px;
+    line-height: 55px;
+    margin-right: .2em;
+  }
+
+  #text h1 {
+    font-size: 15px;
+  }
+  #text p {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 22em) {
+  header h1{
+    font-size: 15px;
+    line-height: 50px;
+  }
+  header {
+    height: 50px;
+  }
+
+  #navigation p {
+    font-size: 13px;
+    margin-left: .3em;
+    line-height: 50px;
+  }
+  #navigation {
+    margin-left: 6em;
+  }
+  #icons {
+    margin-right: .7em;
+  }
+  #icons i {
+    font-size: 15px;
+    line-height: 50px;
+  }
+  #ic_foot p, #ic_foot i {
+    font-size: 20px
+  }
+  #ic_foot {
+    display: inherit;
+    margin-left: 2em;
+  }
+  footer img {
+    width: 12em;
+    height: 1.8em;
+  }
+  #payment {
+    display: block;
+  }
+  #copy {
+    display: block;
+    margin-left: 1em;
+  }
+
+  #copy p {
+    font-size: 20px;
+    margin-top: 1em;
+  }
+}
+
+@media screen and (max-width: 20em) {
+  header h1{
+    font-size: 14px;
+    line-height: 50px;
+  }
+  header {
+    height: 50px;
+  }
+
+  #navigation p {
+    font-size: 12px;
+    margin-left: .2em;
+    line-height: 50px;
+  }
+  #navigation {
+    margin-left: 5.5em;
+  }
+  #icons {
+    margin-right: .5em;
+  }
+  #icons i {
+    font-size: 14px;
+    line-height: 50px;
+  }
+}
+/* MEDIA Ende */
+
+/*
+    ___________
+   /Schlidkröte\__
+  /_    ____    ___|
+<   |__|    |__|
+
+*/
+
+.button_slide {
+  color: #000;
+  border: 2px solid #a93226;
+  border-radius: 0px;
+  padding: .5em 3em;
+  display: inline-block;
+  font-family: "Libel", monospace;
+  font-size: 20px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #a93226;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+#vertex_btn_v {
+  width: 100%;
+  float: left;
+}
+.button_slide_v {
+  margin-top: 1em;
+  color: #000;
+  width: 250px;
+  padding-top: 0.2em;
+  padding-bottom: .2em;
+  border: 2px solid #a93226;
+  border-radius: 0px;
+  display: inline-block;
+  font-family: "Libel", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 #a93226;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.slide_right:hover {
+  box-shadow: inset 400px 0 0 0 #a93226;
+  color: white;
+}
+
+.slide_right_v:hover {
+  box-shadow: inset 1000px 0 0 0 #a93226;
+  color: white;
+}
+</style>
+  </head>
+  <body>
+<div id="main_website">
+<header>
+<div id="header">
+<div id="uber">
+<h1>Skinshare.de</h1>
+</div>
+<div id="logo">
+</div>
+<nav>
+<div id="navigation">
+<a href="index.html"><p>Home</p></a>
+<a href="agb.html"><p>Rechtliches</p></a>
+<a href="kontakt.html"><p>Kontakt</p></a>
+</div>
+</nav><div id="icons">
+<i class="fas fa-shopping-cart"></i>
+<i class="fas fa-euro-sign"></i>
+<i class="fas fa-tag"></i>
+<div id="menu_ic"><i class="fas fa-bars"></i></div>
+</div>
+</div>
+</header>
+<main>
+<div id="banner">
+<img src="Banner.png" />
+</div>
+<div id="content">
+  <div id="text">
+    <p>
+      <h1>So funktioniert der Kauf:</h1><p><br />
+        1. Wähle dein Produkt und kaufe es<br />
+        2. Sende uns per INSTA eine DM mit einem Foto von PayPal und dem Produkt.<br />
+        3. Erhalte dein Produkt - viel spaß
+      </p>
+    </p>
+  </div>
+<div id="vertex"><img src="vertex.png"/><div id="vertex_t"><p>Dark Vertex Bundle</p></div><div id="vertex_p"><p>&#8364;125,00 EUR</p></div><div id="spectext">
+  <p>
+
+  €115,00 EUR</p>
+</div><a href="special.html"><div class="button_slide slide_right">Kaufen </div></a></div>
+<div id="slots">
+<div id="minty"><img src="Minty.png"/><div id="minty_t"><p>Minty Pickaxe</p></div><div id="minty_p"><p>&#8364;35,00 EUR</p></div><a href="minty.html"><div class="button_slide slide_right">Kaufen </div></a></div>
+<!--<div id="wonder"><img src="Wonder.png" /><div id="wonder_t"><p>Honor Wonder Skin</p></div><div id="wonder_p"><p>&#8364;70,00 EUR</p></div><div id="wonder_btn"><div class="button_slide slide_right">Kaufen </div></div></div>
+<div id="guard"><img src="Guard.png" /><div id="guard_t"><p>Honor Guard Skin</p></div><div id="guard_p"><p>&#8364;65,00 EUR</p></div><div id="guard_btn"> <div class="button_slide slide_right">Kaufen </div></div></div>-->
+<div id="neo"><img src="Neo_1.png" /><div id="neo_t"><p>Neo Versa Bundle</p></div><div id="neo_p"><p>&#8364;15,00 EUR</p></div><div id="neo_btn"><a href="Neo.html"><div class="button_slide slide_right">Kaufen </div></div></a></div>
+<!--<div id="skorp"><img src="Skorpion.png" /><div id="skorp_t"><p>Scorpion Bundle</p></div><div id="skorp_p"><p>&#8364;40,00 EUR</p></div><div id="skorp_btn"><div class="button_slide slide_right">Kaufen </div></div></div>-->
+<div id="freeze"><img src="Freeze.png" /><div id="freeze_t"><p>Deep Freeze Bundle</p></div><div id="freeze_p"><p>&#8364;40,00 EUR</p></div><div id="Freeze_btn"><a href="Freeze.html"><div class="button_slide slide_right">Kaufen </div></div></a></div>
+<!--<div id="eon"><img src="Eon_1.png" /><div id="eon_t"><p>Eon Bundle</p></div><div id="eon_p"><p>&#8364;100,00 EUR</p></div><div id="eon_btn"><div class="button_slide slide_right">Kaufen </div></div></div>-->
+<div id="gal"><img src="Galaxy.png" /><div id="gal_t"><p>Galaxy Spray</p></div><div id="gal_p"><p>&#8364;60,00 EUR</p></div><div id="gal_btn"><a href="Galaxy.html"><div class="button_slide slide_right">Kaufen </div></div></a></div>
+</div>
+</div>
+</main>
+</div>
+<footer>
+  <div id="foot">
+    <div id="ic_foot">
+      <p>
+        Skinshare.de -
+      </p>
+      <a href="https://instagram.com/skinshare.de"><i class="fab fa-instagram" style="margin-left: .2em"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div id="payment">
+      <img src="pay.png" />
+    </div>
+    <div id="copy">
+      <p>
+        &#169; 2020, Skinshare.de
+      </p>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
